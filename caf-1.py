@@ -28,7 +28,7 @@ class App:
             if not target.startswith('https') or not target.startswith("http"):
                 target = "https://"+target
 
-            with open("./links.txt", "r") as file:
+            with open("./paths.txt", "r") as file:
                 paths = file.read().splitlines()
                 print(f"{F.RESET}[{F.GREEN} = {F.RESET}] Start Search On {F.GREEN}Pages Admin{F.RESET}.")
                 okPaths_list = []
