@@ -42,7 +42,7 @@ class App:
                             okPaths_list.append(url_path)
                         else:
                             print(f"[ {F.RED} NOT {F.RESET}] Url: {F.RED}{url_path}{F.RESET}")
-                    except req.exceptions.RequestException::
+                    except req.exceptions.RequestException:
                         print(f"{F.RED}Error :(")
 
         except KeyboardInterrupt:
