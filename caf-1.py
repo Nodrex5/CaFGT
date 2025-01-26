@@ -50,7 +50,7 @@ class App:
             if okPaths_list:
                 print(f"{F.GREEN}[+] Successful Admin Pages Found:{F.RESET}")
                 for path in okPaths_list:
-                    print(f"{F.GREEN}- {path}")
+                    print(f"\n{F.GREEN}- {path}")
             else:
                 print(f"{F.RED}[-] No Admin Pages Found.{F.RESET}")
         except Exception as e:
